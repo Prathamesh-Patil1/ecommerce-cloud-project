@@ -1,0 +1,31 @@
+//basic cloud architecture:
+
+Users
+   |
+Internet
+   |
+CloudFront (CDN)
+   |
+Load Balancer
+   |
+EC2 (Web Server)
+   |
+Backend API
+   |
+RDS Database
+   |
+S3 Storage (Images)
+
+
+ecommerce-cloud-project
+│
+├── architecture
+│   └── architecture-diagram.png
+│
+├── documentation
+│   └── aws-setup.md
+│
+├── infrastructure
+│   └── terraform-files
+│
+└── README.md
